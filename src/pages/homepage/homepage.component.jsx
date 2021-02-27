@@ -4,10 +4,10 @@ import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
-const Homepage = ({ history }) => (
+const HomePage = ({ history }) => (
   <div className='homepage'>
     <Directory history={history} />
   </div>
 )
 
-export default Homepage;
+export default HomePage;
